@@ -1,0 +1,57 @@
+#intro>.lead{
+    padding: 60px 30px 90px;
+}
+#intro>.btn{
+    padding: .6em;
+    font-size: 1.5em;
+   
+}
+#intro{
+   
+}
+.container-fluid{
+    background: #fff;
+    
+}
+body{
+    background: #f7f4f4;
+}
+form>h3{
+    padding-bottom: 20px;
+}
+form>h3 small{
+/*
+   position: relative;
+   top:10px;
+*/
+}
+form>h3 pre{
+     display: block; 
+     padding: 2.5px; 
+     margin: 10px; 
+     font-size: 1em; 
+     line-height: 1.2em; 
+     color: #333; 
+     word-break: break-all; 
+     word-wrap: break-word; 
+     background-color: inherit; 
+     border: 0px solid #ccc; 
+     border-radius: 0px; 
+}
+.main-page{
+    min-height: 100vh
+}
+.panel-group.question .panel{
+    margin-bottom: 1em;
+}
+.top-buffer>button{
+    margin-bottom: 10em;
+}
+.alert_error,.alert_blank{
+    padding-right: 2em;
+    line-height: 2.2em;
+/*    color: #af2f2f;*/
+}
+.panel-heading{
+    cursor: pointer;
+}
