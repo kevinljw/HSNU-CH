@@ -69,7 +69,7 @@ var startTimer, endTimer;
 			$.ajax({
 				'async': false,
 				'global': false,
-				'url': "js/level-questions.json",
+				'url': "level-questions.json",
 				'dataType': "json",
 				'success': function(data){
 					json = data;
