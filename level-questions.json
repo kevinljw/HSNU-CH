@@ -1,293 +1,514 @@
-{   
-    "project_title":"師大附中-國文科闖關",
-    "project_abstract":"A simple discription", 
+{
+    "project_title": "師大附中-國文科闖關",
+    "project_abstract": "A simple discription",
     "introduction": "The following questions will determine how much you really know about Chinese!",
-    "alert_blank":"還沒作答完畢呢!",
-    "alert_error":"答案有錯，請再檢查!",
-    "ending_text":"闖關成功",
-    "level":[
-            {
-                "level_title":"第一關：猜一字",
-                "level_intro":"介紹這一關\r\n介紹這一關\r\n介紹這一關",
-                "questions":[
-                    {
-                        "question":"春雨綿綿人去了",
-                        "choices":[
-                            {"choice":"二"},
-                            {"choice":"三"},
-                            {"choice":"日"},
-                            {"choice":"一"}],
-                        "correctAnswer":"三"
-                    },{
-                        "question":"新亭對泣",
-                        "choices":[
-                            {"choice":"器"},
-                            {"choice":"犬"},
-                            {"choice":"獄"},
-                            {"choice":"淼"}],
+    "alert_blank": "還沒作答完畢呢!",
+    "alert_error": "答案有錯，請再檢查!",
+    "ending_text": "闖關成功",
+    "level": [
+        {
+            "level_title": "第一關：猜一字",
+            "level_intro": "介紹這一關\r\n介紹這一關\r\n介紹這一關",
+            "questions": [
+                {
+                    "question": "春雨綿綿人去了",
+                    "choices": [
+                        {
+                            "choice": "二"
+                        },
+                        {
+                            "choice": "三"
+                        },
+                        {
+                            "choice": "日"
+                        },
+                        {
+                            "choice": "一"
+                        }],
+                    "correctAnswer": "三"
+                    }, {
+                    "question": "新亭對泣",
+                    "choices": [
+                        {
+                            "choice": "器"
+                        },
+                        {
+                            "choice": "犬"
+                        },
+                        {
+                            "choice": "獄"
+                        },
+                        {
+                            "choice": "淼"
+                        }],
 
-                        "correctAnswer":"器"
-                    },{
-                        "question":"半部春秋 ",
-                        "choices":[
-                            {"choice":"坵"},
-                            {"choice":"岳"},
-                            {"choice":"泰"},
-                            {"choice":"秦"}],
-                        "correctAnswer":"秦"
-                    },{
-                        "question":"九十九",
-                        "choices":[
-                            {"choice":"白"},
-                            {"choice":"日"},
-                            {"choice":"各"},
-                            {"choice":"千"}],
-                        "correctAnswer":"白"
+                    "correctAnswer": "器"
+                    }, {
+                    "question": "半部春秋 ",
+                    "choices": [
+                        {
+                            "choice": "坵"
+                        },
+                        {
+                            "choice": "岳"
+                        },
+                        {
+                            "choice": "泰"
+                        },
+                        {
+                            "choice": "秦"
+                        }],
+                    "correctAnswer": "秦"
+                    }, {
+                    "question": "九十九",
+                    "choices": [
+                        {
+                            "choice": "白"
+                        },
+                        {
+                            "choice": "日"
+                        },
+                        {
+                            "choice": "各"
+                        },
+                        {
+                            "choice": "千"
+                        }],
+                    "correctAnswer": "白"
                     }
                 ]
-                
+
             },
-            {
-                "level_title":"第二關：猜30篇古文一句",
-                "level_intro":"猜30篇古文一句",
-                "questions":[
-                    {
-                        "question":"殸（〈赤壁賦〉）一句",
-                        "choices":[
-                            {"choice":"餘音嫋嫋"},
-                            {"choice":"耳得之而為聲"},
-                            {"choice":"如怨如慕"},
-                            {"choice":"不知東方之既白"}],
-                        "correctAnswer":"耳得之而為聲"
-                    },{
-                        "question":"疑是地上霜（〈桃花源記〉）一句,
-                        "choices":[
-                            {"choice":"無論魏晉"},
-                            {"choice":"不復出焉"},
-                             {"choice":"遂迷不復得路"},
-                            {"choice":"彷彿若有光"}],
-                        "correctAnswer":"彷彿若有光"
-                    },{
-                        "question":"迷途（〈師說〉）一句,
-                        "choices":[
-                            {"choice":"小學而大遺"},
-                            {"choice":"聞道有先後"},
-                            {"choice":"道相似也"},
-                            {"choice":"孰能無惑"}],
-                        "correctAnswer":"道相似也"
-                    },{
-                        "question":"關門停業六十天"（〈岳陽樓記〉）一句"",
-                        "choices":[
-                            {"choice":"吾誰與歸"},
-                            {"choice":"連月不開"},
-                            {"choice":"商旅不行"},
-                            {"choice":"百廢俱興"}],
-                        "correctAnswer":"連月不開"
+        {
+            "level_title": "第二關：猜30篇古文一句",
+            "level_intro": "猜30篇古文一句",
+            "questions": [
+                {
+                    "question": "殸（〈赤壁賦〉）一句",
+                    "choices": [
+                        {
+                            "choice": "餘音嫋嫋"
+                        },
+                        {
+                            "choice": "耳得之而為聲"
+                        },
+                        {
+                            "choice": "如怨如慕"
+                        },
+                        {
+                            "choice": "不知東方之既白"
+                        }],
+                    "correctAnswer": "耳得之而為聲"
+                    }, {
+                    "question": "疑是地上霜（〈桃花源記〉）一句",
+                    "choices": [
+                        {
+                            "choice": "無論魏晉"
+                        },
+                        {
+                            "choice": "不復出焉"
+                        },
+                        {
+                            "choice": "遂迷不復得路"
+                        },
+                        {
+                            "choice": "彷彿若有光"
+                        }],
+                    "correctAnswer": "彷彿若有光"
+                    }, {
+                    "question": "迷途（〈師說〉）一句",
+                    "choices": [
+                        {
+                            "choice": "小學而大遺"
+                        },
+                        {
+                            "choice": "聞道有先後"
+                        },
+                        {
+                            "choice": "道相似也"
+                        },
+                        {
+                            "choice": "孰能無惑"
+                        }],
+                    "correctAnswer": "道相似也"
+                    }, {
+                    "question": "關門停業六十天（〈岳陽樓記〉） 一句 ",
+                    "choices": [
+                        {
+                            "choice": "吾誰與歸"
+                        },
+                        {
+                            "choice": "連月不開"
+                        },
+                        {
+                            "choice": "商旅不行"
+                        },
+                        {
+                            "choice": "百廢俱興"
+                        }],
+                    "correctAnswer": "連月不開"
                     }
                 ]
-                
+
             },
-            {
-                "level_title":"第三關：猜一古人",
-                "level_intro":"猜一古人",
-                "questions":[
-                    {
-                        "question": "妙手回春（漢人）,
-                        "choices":[
-                            {"choice":"司馬遷"},
-                            {"choice":"賈誼"},
-                            {"choice":"霍光"},
-                            {"choice":"霍去病"}],
-                        "correctAnswer":"霍去病"
-                    },{
-                        "question":"晉室南渡（漢人）",
-                        "choices":[
-                            {"choice":"司馬遷"},
-                            {"choice":"賈誼"},
-                             {"choice":"霍光"},
-                            {"choice":"霍去病"}],
-                        "correctAnswer":"司馬遷"
-                    },{
-                        "question":"衣錦還鄉（明文人）",
-                        "choices":[
-                            {"choice":"史可法"},
-                            {"choice":"左光斗"},
-                            {"choice":"歸有光"},
-                            {"choice":"袁宏道"}],
-                        "correctAnswer":"歸有光"
-                    },{
-                        "question":"以古為鑑（明文人）",
-                        "choices":[
-                             {"choice":"史可法"},
-                            {"choice":"左光斗"},
-                            {"choice":"歸有光"},
-                            {"choice":"袁宏道"}],
-                        "correctAnswer":"史可法"
+        {
+            "level_title": "第三關：猜一古人",
+            "level_intro": "猜一古人",
+            "questions": [
+                {
+                    "question": "妙手回春（漢人）",
+                    "choices": [
+                        {
+                            "choice": "司馬遷"
+                        },
+                        {
+                            "choice": "賈誼"
+                        },
+                        {
+                            "choice": "霍光"
+                        },
+                        {
+                            "choice": "霍去病"
+                        }],
+                    "correctAnswer": "霍去病"
+                    }, {
+                    "question": "晉室南渡（漢人）",
+                    "choices": [
+                        {
+                            "choice": "司馬遷"
+                        },
+                        {
+                            "choice": "賈誼"
+                        },
+                        {
+                            "choice": "霍光"
+                        },
+                        {
+                            "choice": "霍去病"
+                        }],
+                    "correctAnswer": "司馬遷"
+                    }, {
+                    "question": "衣錦還鄉（明文人）",
+                    "choices": [
+                        {
+                            "choice": "史可法"
+                        },
+                        {
+                            "choice": "左光斗"
+                        },
+                        {
+                            "choice": "歸有光"
+                        },
+                        {
+                            "choice": "袁宏道"
+                        }],
+                    "correctAnswer": "歸有光"
+                    }, {
+                    "question": "以古為鑑（明文人）",
+                    "choices": [
+                        {
+                            "choice": "史可法"
+                        },
+                        {
+                            "choice": "左光斗"
+                        },
+                        {
+                            "choice": "歸有光"
+                        },
+                        {
+                            "choice": "袁宏道"
+                        }],
+                    "correctAnswer": "史可法"
   }
                 ]
-                
+
             },
-            {
-                "level_title":"第四關：猜一物",
-                "level_intro":"猜一物",
-                "questions":[
-                    {
-                        "question":"懷君屬秋月（水果) ",
-                        "choices":[
-                            {"choice":"桂圓"},
-                            {"choice":"情人果"},
-                            {"choice":"榴槤"},
-                            {"choice":"蘋果"}],
-                        "correctAnswer":"桂圓"
-                    },{
-                        "question":"摽有梅 (中藥名) ",
-                        "choices":[
-                            {"choice":"人蔘"},
-                            {"choice":"遠志"},
-                             {"choice":"當歸"},
-                            {"choice":"茯苓"}],
-                        "correctAnswer":"當歸"
-                    },{
-                        "question":"有了兒子就是老子(食物) ",
-                        "choices":[
-                            {"choice":"仙草"},
-                            {"choice":"烏梅"},
-                            {"choice":"豆花"},
-                            {"choice":"木耳"}],
-                        "correctAnswer":"木耳"
-                    },{
-                        "question":"老婆婆燙頭髮(食物) ",
-                        "choices":[
-                            {"choice":"銀絲卷"},
-                            {"choice":"養樂多"},
-                            {"choice":"冰淇淋"},
-                            {"choice":""}],
-                        "correctAnswer":""
+        {
+            "level_title": "第四關：猜一物",
+            "level_intro": "猜一物",
+            "questions": [
+                {
+                    "question": "懷君屬秋月（水果) ",
+                    "choices": [
+                        {
+                            "choice": "桂圓"
+                        },
+                        {
+                            "choice": "情人果"
+                        },
+                        {
+                            "choice": "榴槤"
+                        },
+                        {
+                            "choice": "蘋果"
+                        }],
+                    "correctAnswer": "桂圓"
+                    }, {
+                    "question": "摽有梅 (中藥名) ",
+                    "choices": [
+                        {
+                            "choice": "人蔘"
+                        },
+                        {
+                            "choice": "遠志"
+                        },
+                        {
+                            "choice": "當歸"
+                        },
+                        {
+                            "choice": "茯苓"
+                        }],
+                    "correctAnswer": "當歸"
+                    }, {
+                    "question": "有了兒子就是老子(食物) ",
+                    "choices": [
+                        {
+                            "choice": "仙草"
+                        },
+                        {
+                            "choice": "烏梅"
+                        },
+                        {
+                            "choice": "豆花"
+                        },
+                        {
+                            "choice": "木耳"
+                        }],
+                    "correctAnswer": "木耳"
+                    }, {
+                    "question": "老婆婆燙頭髮(食物) ",
+                    "choices": [
+                        {
+                            "choice": "銀絲卷"
+                        },
+                        {
+                            "choice": "養樂多"
+                        },
+                        {
+                            "choice": "冰淇淋"
+                        }],
+                    "correctAnswer": "銀絲卷"
   }
                 ]
-                
+
             },
-            {
-                "level_title":"第五關：猜一猜學科名詞",
-                "level_intro":"猜一猜學科名詞",
-                "questions":[
-                    {
-                        "question":"促膝而談    一物理名詞",
-                        "choices":[
-                            {"choice":"重力波"},
-                            {"choice":"相對論"},
-                            {"choice":"微波"},
-                            {"choice":"回聲"}],
-                        "correctAnswer":"相對論"
-                    },{
-                        "question":"尚無歌詞   一物理名詞",
-                        "choices":[
-                            {"choice":"光譜"},
-                            {"choice":"重力"},
-                             {"choice":"回聲"},
-                            {"choice":"微波"}],
-                        "correctAnswer":"光譜"
-                    },{
-                        "question":"十  一數學名詞",
-                        "choices":[
-                            {"choice":"向量"},
-                            {"choice":"微分"},
-                            {"choice":"指數"},
-                            {"choice":"開方"}],
-                        "correctAnswer":"指數"
-                    },{
-                        "question":"不分青紅皂白  一醫學症狀",
-                        "choices":[
-                            {"choice":"心悸"},
-                            {"choice":"色盲"},
-                            {"choice":"截肢"},
-                            {"choice":"飛蚊症"}],
-                        "correctAnswer":"色盲"
+        {
+            "level_title": "第五關：猜一猜學科名詞",
+            "level_intro": "猜一猜學科名詞",
+            "questions": [
+                {
+                    "question": "促膝而談    一物理名詞",
+                    "choices": [
+                        {
+                            "choice": "重力波"
+                        },
+                        {
+                            "choice": "相對論"
+                        },
+                        {
+                            "choice": "微波"
+                        },
+                        {
+                            "choice": "回聲"
+                        }],
+                    "correctAnswer": "相對論"
+                    }, {
+                    "question": "尚無歌詞   一物理名詞",
+                    "choices": [
+                        {
+                            "choice": "光譜"
+                        },
+                        {
+                            "choice": "重力"
+                        },
+                        {
+                            "choice": "回聲"
+                        },
+                        {
+                            "choice": "微波"
+                        }],
+                    "correctAnswer": "光譜"
+                    }, {
+                    "question": "十  一數學名詞",
+                    "choices": [
+                        {
+                            "choice": "向量"
+                        },
+                        {
+                            "choice": "微分"
+                        },
+                        {
+                            "choice": "指數"
+                        },
+                        {
+                            "choice": "開方"
+                        }],
+                    "correctAnswer": "指數"
+                    }, {
+                    "question": "不分青紅皂白  一醫學症狀",
+                    "choices": [
+                        {
+                            "choice": "心悸"
+                        },
+                        {
+                            "choice": "色盲"
+                        },
+                        {
+                            "choice": "截肢"
+                        },
+                        {
+                            "choice": "飛蚊症"
+                        }],
+                    "correctAnswer": "色盲"
   }
                 ]
-                
+
             },
-            {
-                "level_title":"第六關：猜一近代人",
-                "level_intro":"猜一近代人",
-                "questions":[
-                    {
-                        "question":"王羲之雀屏中選（物理學家）",
-                        "choices":[
-                            {"choice":"牛頓"},
-                            {"choice":"愛因斯坦"},
-                            {"choice":"理查費曼"},
-                            {"choice":"霍金"}],
-                        "correctAnswer":"愛因斯坦"
-                    },{
-                        "question":" 囯（民初文人）",
-                        "choices":[
-                            {"choice":"胡適"},
-                            {"choice":"徐志摩"},
-                             {"choice":"梁啟超"},
-                            {"choice":"王國維"}],
-                        "correctAnswer":""
-                    },{
-                        "question":"凌寒獨自開（文學大師）",
-                        "choices":[
-                            {"choice":"余光中"},
-                            {"choice":"徐志摩"},
-                            {"choice":"白先勇"},
-                            {"choice":"胡適"}],
-                        "correctAnswer":"白先勇"
-                    },{
-                     "question":"（夕陽無限好 只是近黃昏（課本作家）",
-                        "choices":[
-                            {"choice":"余光中"},
-                            {"choice":"徐志摩"},
-                            {"choice":"張愛玲"},
-                            {"choice":"胡適"}],
-                        "correctAnswer":"余光中"
+        {
+            "level_title": "第六關：猜一近代人",
+            "level_intro": "猜一近代人",
+            "questions": [
+                {
+                    "question": "王羲之雀屏中選（物理學家）",
+                    "choices": [
+                        {
+                            "choice": "牛頓"
+                        },
+                        {
+                            "choice": "愛因斯坦"
+                        },
+                        {
+                            "choice": "理查費曼"
+                        },
+                        {
+                            "choice": "霍金"
+                        }],
+                    "correctAnswer": "愛因斯坦"
+                    }, {
+                    "question": " 囯（民初文人）",
+                    "choices": [
+                        {
+                            "choice": "胡適"
+                        },
+                        {
+                            "choice": "徐志摩"
+                        },
+                        {
+                            "choice": "梁啟超"
+                        },
+                        {
+                            "choice": "王國維"
+                        }],
+                    "correctAnswer": "王國維"
+                    }, {
+                    "question": "凌寒獨自開（文學大師）",
+                    "choices": [
+                        {
+                            "choice": "余光中"
+                        },
+                        {
+                            "choice": "徐志摩"
+                        },
+                        {
+                            "choice": "白先勇"
+                        },
+                        {
+                            "choice": "胡適"
+                        }],
+                    "correctAnswer": "白先勇"
+                    }, {
+                    "question": "（夕陽無限好 只是近黃昏（課本作家）",
+                    "choices": [
+                        {
+                            "choice": "余光中"
+                        },
+                        {
+                            "choice": "徐志摩"
+                        },
+                        {
+                            "choice": "張愛玲"
+                        },
+                        {
+                            "choice": "胡適"
+                        }],
+                    "correctAnswer": "余光中"
   }
                 ]
-                
+
             },
-            {
-                "level_title":"第七關：猜附中國文老師",
-                "level_intro":"猜附中國文老師",
-                "questions":[
-                    {
-                        "question":"蓮葉何田田 ",
-                        "choices":[
-                            {"choice":"陳芳儀"},
-                            {"choice":"陳麗文"},
-                            {"choice":"張翠雲"},
-                            {"choice":"崔沁"}],
-                        "correctAnswer":"張翠雲"
-                    },{
-                        "question":"國運昌隆ing ",
-                        "choices":[
-                            {"choice":"吳明麟"},
-                            {"choice":"林宗賜"},
-                             {"choice":"吳承和"},
-                            {"choice":"賀興中"}],
-                        "correctAnswer":"賀興中"
-                    },{
-                        "question":"盡日君王看不足",
-                        "choices":[
-                            {"choice":"楊可欣"},
-                            {"choice":"李黛顰"},
-                            {"choice":"黃麗禎"},
-                            {"choice":"朱美卿"}],
-                        "correctAnswer":"楊可欣"
-                    },{
-                        "question":"梅妻鶴子",
-                        "choices":[
-                            {"choice":"江翊君"},
-                            {"choice":"劉品辰"},
-                            {"choice":"劉為博"},
-                            {"choice":"林逸潔"}],
-                        "correctAnswer":"林逸潔"
+        {
+            "level_title": "第七關：猜附中國文老師",
+            "level_intro": "猜附中國文老師",
+            "questions": [
+                {
+                    "question": "蓮葉何田田 ",
+                    "choices": [
+                        {
+                            "choice": "陳芳儀"
+                        },
+                        {
+                            "choice": "陳麗文"
+                        },
+                        {
+                            "choice": "張翠雲"
+                        },
+                        {
+                            "choice": "崔沁"
+                        }],
+                    "correctAnswer": "張翠雲"
+                    }, {
+                    "question": "國運昌隆ing ",
+                    "choices": [
+                        {
+                            "choice": "吳明麟"
+                        },
+                        {
+                            "choice": "林宗賜"
+                        },
+                        {
+                            "choice": "吳承和"
+                        },
+                        {
+                            "choice": "賀興中"
+                        }],
+                    "correctAnswer": "賀興中"
+                    }, {
+                    "question": "盡日君王看不足",
+                    "choices": [
+                        {
+                            "choice": "楊可欣"
+                        },
+                        {
+                            "choice": "李黛顰"
+                        },
+                        {
+                            "choice": "黃麗禎"
+                        },
+                        {
+                            "choice": "朱美卿"
+                        }],
+                    "correctAnswer": "楊可欣"
+                    }, {
+                    "question": "梅妻鶴子",
+                    "choices": [
+                        {
+                            "choice": "江翊君"
+                        },
+                        {
+                            "choice": "劉品辰"
+                        },
+                        {
+                            "choice": "劉為博"
+                        },
+                        {
+                            "choice": "林逸潔"
+                        }],
+                    "correctAnswer": "林逸潔"
 
                     }
                 ]
-                
+
             }
-			
+
      ]
 }
