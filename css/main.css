@@ -17,7 +17,7 @@ body{
     background: #f7f4f4;
 }
 form>h3{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-size: 32px;
 }
 form>h3 small{
@@ -55,4 +55,13 @@ form>h3 pre{
 }
 .panel-heading{
     cursor: pointer;
+    height: 60px;
+    padding: 20px;
+}
+.panel-title{
+    font-size: 21px;
+    height: 
+}
+#choices>.btn{
+    font-size: 18px;
 }
